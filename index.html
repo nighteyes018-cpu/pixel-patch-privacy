@@ -4,6 +4,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Pixel Patch: Privacy Policy</title>
+<link rel="alternate" hreflang="en" href="https://nighteyes018-cpu.github.io/pixel-patch-privacy/">
+<link rel="alternate" hreflang="zh-Hant" href="https://pixelpatch.games/zh-tw/privacy/">
 <style>
   body {
     margin: 0; padding: 40px 20px 80px;
@@ -37,9 +39,20 @@
     margin-top: 32px;
   }
   a { color: #9ad0f0; }
+  /* ---- language toggle (top right) ---- */
+  .lang {
+    position: absolute; top: 16px; right: 18px; z-index: 3;
+    display: flex; overflow: hidden;
+    background: rgba(13,21,8,0.72);
+    border: 2px solid #3c5322; border-radius: 999px;
+  }
+  .lang a { color: #cfe0b8; text-decoration: none; font-weight: 800; font-size: 13px; line-height: 1; padding: 7px 13px; }
+  .lang a.on { background: #8bc34a; color: #13200d; }
+  .lang a:not(.on):hover { color: #f1f8e9; }
 </style>
 </head>
 <body>
+<nav class="lang" aria-label="Language"><a class="on" href="https://nighteyes018-cpu.github.io/pixel-patch-privacy/" hreflang="en">EN</a><a href="https://pixelpatch.games/zh-tw/privacy/" hreflang="zh-Hant" lang="zh-Hant">中文</a></nav>
 <div class="wrap">
   <h1>Privacy Policy for Pixel Patch</h1>
   <div class="updated">Last updated: August 24, 2026</div>
